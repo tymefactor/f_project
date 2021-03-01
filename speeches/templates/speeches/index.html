@@ -1,0 +1,12 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>COVID-19 Speeches Home</h1>
+  <p>Welcome to COVID-19 Speeches, a website developed by <em>Clement as AITI Django module Final Project</em>!</p>
+  <h2>Dynamic content</h2>
+  <p>The Speeches has the following record counts:</p>
+  <ul>
+    <li><strong>Speeches:</strong> {{ num_books }}</li>
+    <li><strong>Speakers:</strong> {{ num_instances }}</li>
+  </ul>
+{% endblock %}
